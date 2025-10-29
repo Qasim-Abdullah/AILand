@@ -52,7 +52,6 @@ export default function Footer() {
               {['Home', 'Services', 'Demo', 'Our Team', ''].map((item, i) => (
                 <li key={i}>
                   <a
-                  
                     href={`#${item.toLowerCase()}`}
                     className="text-gray-400 dark:text-gray-500 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-violet-300 hover:to-emerald-300 transition-all"
                   >
