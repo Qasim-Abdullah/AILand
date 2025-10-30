@@ -6,7 +6,6 @@ import TeamSection from '@/components/OurTeam/TeamSection'
 import Footer from "@/components/End/Footer";
 import Contact from "@/components/Contact/Contact";
 
-
 export default function Home() {
   return (
     <div className="">
@@ -19,6 +18,7 @@ export default function Home() {
           <TeamSection/>
           <Contact/>
           <Footer/>
+          
         </div>
       </main>
     </div>

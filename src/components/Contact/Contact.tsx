@@ -64,7 +64,7 @@ export default function Contact() {
                     </motion.p>
                 </div>
 
-                <div className="mx-auto max-w-7xl grid grid-cols-1 gap-12">
+                <div className="mx-auto max-w-4xl grid grid-cols-1 gap-12">
                     <motion.div
                         initial={{ opacity: 0, x: 20 }}
                         whileInView={{ opacity: 1, x: 0 }}
